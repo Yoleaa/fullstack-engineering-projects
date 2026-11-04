@@ -1,0 +1,442 @@
+# Master curriculum (400 projects)
+
+
+## Level 1: Web foundations and HTTP (Beginner)
+
+Projects 001-040. Main references: RESTful Web Services (ch. 1-3); HTTP: The Definitive Guide; Eloquent JavaScript.
+
+- 001 Personal HTML page **(Core)**
+- 002 Profile page
+- 003 CV website
+- 004 Business landing page
+- 005 Multi-page website
+- 006 CSS styling lab
+- 007 Responsive page **(Core)**
+- 008 Navigation system
+- 009 Form design
+- 010 Accessible form
+- 011 JavaScript calculator
+- 012 Unit converter
+- 013 Validation engine
+- 014 Interactive to-do list **(Core)**
+- 015 Expense tracker
+- 016 JSON reader
+- 017 JSON formatter
+- 018 XML reader
+- 019 XML-to-JSON converter **(Core)**
+- 020 Data serialization tool
+- 021 HTTP request inspector **(Core)**
+- 022 HTTP response inspector
+- 023 Header analyser
+- 024 Status-code explorer **(Core)**
+- 025 MIME-type detector
+- 026 URL parser
+- 027 Query-string builder
+- 028 URI shortener
+- 029 HTTP method simulator
+- 030 Redirect simulator
+- 031 cURL client **(Core)**
+- 032 Public API consumer
+- 033 Weather API client
+- 034 GitHub API explorer **(Core)**
+- 035 Pagination client
+- 036 Browser storage manager
+- 037 AJAX search application
+- 038 Asynchronous data loader
+- 039 API error handler
+- 040 Mini HTTP client
+
+## Level 2: REST and resource-oriented architecture (Beginner to Intermediate)
+
+Projects 041-090. Main references: RESTful Web Services (ch. 3-6, 8); RESTful Web APIs; HTTP: The Definitive Guide.
+
+- 041 Read-only book API
+- 042 Country information API
+- 043 University directory API
+- 044 Weather resource API
+- 045 Public transport API
+- 046 Student CRUD API **(Core)**
+- 047 Employee CRUD API
+- 048 Product CRUD API
+- 049 Customer CRUD API
+- 050 Inventory CRUD API **(Core)**
+- 051 Resource URI designer
+- 052 Resource relationship modeller
+- 053 Nested resource API **(Core)**
+- 054 Resource collection API
+- 055 Resource representation builder
+- 056 HTTP GET service
+- 057 POST service
+- 058 PUT service
+- 059 PATCH service
+- 060 DELETE service
+- 061 Status-code implementation **(Core)**
+- 062 Content negotiation **(Core)**
+- 063 Media-type handling
+- 064 API versioning
+- 065 API documentation
+- 066 Filtering API **(Core)**
+- 067 Sorting API
+- 068 Pagination API
+- 069 Search API
+- 070 Bulk-resource API
+- 071 ETag implementation **(Core)**
+- 072 Conditional GET
+- 073 Cache-control service
+- 074 Last-modified service
+- 075 Request validation
+- 076 Hypermedia API **(Core)**
+- 077 Link discovery API
+- 078 Navigation API
+- 079 HAL-style resource API
+- 080 API relationship explorer
+- 081 Authentication-aware resources **(Core)**
+- 082 User account API
+- 083 Access policy API
+- 084 Private resource API
+- 085 Resource ownership API
+- 086 Library API
+- 087 Blogging API
+- 088 Bookmarking API
+- 089 Event management API
+- 090 Complete resource-oriented API **(Core)**
+
+## Level 3: Backend engineering and databases (Intermediate)
+
+Projects 091-155. Main references: Node.js Design Patterns; PostgreSQL: Up and Running; MongoDB: The Definitive Guide; Eloquent JavaScript; You Don't Know JS Yet.
+
+- 091 Node.js server
+- 092 Express server **(Core)**
+- 093 Routing engine
+- 094 Middleware pipeline **(Core)**
+- 095 Central error handler
+- 096 Configuration manager
+- 097 Environment variable manager
+- 098 Logging service
+- 099 Request logger
+- 100 Health-check service
+- 101 PostgreSQL connection **(Core)**
+- 102 SQL CRUD service
+- 103 Relational data modeller
+- 104 Database migrations **(Core)**
+- 105 Transaction manager
+- 106 MongoDB connection **(Core)**
+- 107 Document CRUD service
+- 108 Schema validation
+- 109 Aggregation service
+- 110 Database indexing
+- 111 User registration API **(Core)**
+- 112 Password hashing service
+- 113 Login API
+- 114 JWT authentication **(Core)**
+- 115 Refresh-token service
+- 116 Role-based access control **(Core)**
+- 117 Permissions engine
+- 118 Session management
+- 119 Password reset
+- 120 Email verification
+- 121 File upload service **(Core)**
+- 122 Image processing service
+- 123 Document management API
+- 124 Cloud storage integration
+- 125 Download service
+- 126 Payment simulation API
+- 127 Invoice service
+- 128 Subscription service
+- 129 Notification service
+- 130 Email service
+- 131 Redis caching **(Core)**
+- 132 Rate limiter
+- 133 Background job processor
+- 134 Task queue
+- 135 Scheduled job service
+- 136 Search backend
+- 137 Geolocation service
+- 138 Audit log service
+- 139 Reporting API
+- 140 Analytics API
+- 141 Multi-tenant API
+- 142 Organization management API
+- 143 Team management API
+- 144 User invitation service
+- 145 Activity feed
+- 146 Inventory backend **(Core)**
+- 147 Warehouse API
+- 148 Order processing API
+- 149 Shipment tracking API
+- 150 Stock reconciliation
+- 151 Modular monolith
+- 152 Clean architecture backend
+- 153 Dependency injection
+- 154 Repository pattern
+- 155 Production-ready backend **(Core)**
+
+## Level 4: Frontend and full-stack integration (Intermediate)
+
+Projects 156-210. Main references: Learning React; Eloquent JavaScript; You Don't Know JS Yet.
+
+- 156 React setup **(Core)**
+- 157 Reusable components
+- 158 Props and state
+- 159 Event handling
+- 160 React forms
+- 161 React routing **(Core)**
+- 162 Nested routes
+- 163 Protected routes
+- 164 Navigation layout
+- 165 Reusable page templates
+- 166 API integration **(Core)**
+- 167 Loading states
+- 168 Error states
+- 169 API data tables
+- 170 Pagination interface
+- 171 Authentication interface **(Core)**
+- 172 Login flow
+- 173 Registration flow
+- 174 User profile
+- 175 Role-based dashboard
+- 176 Product catalogue **(Core)**
+- 177 Product details
+- 178 Shopping cart
+- 179 Checkout interface
+- 180 Order history
+- 181 Search interface **(Core)**
+- 182 Filters
+- 183 Sorting controls
+- 184 Advanced forms
+- 185 Form validation
+- 186 File upload UI
+- 187 Image gallery
+- 188 Notification interface
+- 189 Real-time status display
+- 190 Charts dashboard
+- 191 State management **(Core)**
+- 192 Context API
+- 193 Redux Toolkit
+- 194 Custom hooks
+- 195 Reusable API client
+- 196 TypeScript React app **(Core)**
+- 197 Typed API contracts
+- 198 Frontend testing
+- 199 Component testing
+- 200 Accessibility audit
+- 201 Admin dashboard **(Core)**
+- 202 Analytics dashboard
+- 203 Multi-user workspace
+- 204 Responsive SaaS interface
+- 205 Progressive web application
+- 206 Full-stack blog **(Core)**
+- 207 Full-stack task manager
+- 208 Rental platform
+- 209 Ecommerce application
+- 210 Learning management system
+
+## Level 5: Security, testing and reliability (Intermediate to Advanced)
+
+Projects 211-260. Main references: Web Security for Developers; API Security in Action.
+
+- 211 Unit testing lab
+- 212 API integration testing **(Core)**
+- 213 End-to-end testing
+- 214 Test database setup
+- 215 Test coverage reporting
+- 216 Input validation
+- 217 SQL injection defence **(Core)**
+- 218 XSS prevention
+- 219 CSRF protection
+- 220 Secure cookie implementation
+- 221 Authentication security **(Core)**
+- 222 Authorization testing
+- 223 Password policy engine
+- 224 Account lockout
+- 225 Session security
+- 226 API rate limiting **(Core)**
+- 227 Brute-force protection
+- 228 CORS configuration
+- 229 Security headers
+- 230 Secrets management
+- 231 OWASP vulnerability lab
+- 232 Dependency vulnerability scanner
+- 233 File upload security
+- 234 Access control testing
+- 235 Security audit logger
+- 236 Load testing **(Core)**
+- 237 Stress testing
+- 238 Performance profiling
+- 239 Database query optimisation
+- 240 API benchmarking
+- 241 Structured logging **(Core)**
+- 242 Distributed tracing
+- 243 Metrics collection
+- 244 Error monitoring
+- 245 Alerting service
+- 246 Backup and recovery
+- 247 Database replication lab
+- 248 Graceful shutdown
+- 249 Retry mechanisms
+- 250 Circuit breaker
+- 251 Idempotency keys **(Core)**
+- 252 Request deduplication
+- 253 Transaction consistency
+- 254 Concurrency control
+- 255 Optimistic locking
+- 256 Secure banking API **(Core)**
+- 257 Healthcare appointment API
+- 258 Secure ecommerce backend
+- 259 Audit-ready administration system
+- 260 Complete API security assessment
+
+## Level 6: Advanced backend and system design (Advanced)
+
+Projects 261-315. Main references: Designing Data-Intensive Applications; Fundamentals of Software Architecture.
+
+- 261 API gateway **(Core)**
+- 262 Service discovery
+- 263 Configuration service
+- 264 Central authentication service
+- 265 Distributed rate limiter
+- 266 Microservice-based ecommerce **(Core)**
+- 267 User microservice
+- 268 Product microservice
+- 269 Order microservice
+- 270 Payment microservice
+- 271 RabbitMQ messaging **(Core)**
+- 272 Kafka event producer
+- 273 Kafka consumer
+- 274 Event-driven notifications
+- 275 Event replay
+- 276 WebSocket chat **(Core)**
+- 277 Real-time collaboration
+- 278 Live notification system
+- 279 Multiplayer backend
+- 280 Presence service
+- 281 Distributed job processing **(Core)**
+- 282 Saga pattern
+- 283 Outbox pattern
+- 284 Event sourcing
+- 285 CQRS implementation
+- 286 Search engine backend
+- 287 Recommendation engine
+- 288 Analytics pipeline
+- 289 Data ingestion API
+- 290 Reporting warehouse
+- 291 Multi-region API simulation
+- 292 Distributed caching
+- 293 Eventual consistency lab
+- 294 Fault-tolerant service
+- 295 Service resilience
+- 296 URL shortening at scale **(Core)**
+- 297 Social media backend
+- 298 Ride-hailing backend
+- 299 Food delivery backend
+- 300 Ticket booking backend
+- 301 Banking transaction engine **(Core)**
+- 302 Digital wallet
+- 303 Subscription billing platform
+- 304 Multi-tenant SaaS
+- 305 Enterprise identity service
+- 306 GraphQL gateway
+- 307 REST-to-GraphQL adapter
+- 308 gRPC service
+- 309 API federation
+- 310 API compatibility testing
+- 311 System design implementation **(Core)**
+- 312 Scalable notification platform
+- 313 Distributed inventory system
+- 314 High-throughput order system
+- 315 Production-grade microservices platform
+
+## Level 7: DevOps, Linux and cloud-native (Advanced)
+
+Projects 316-360. Main references: Pro Git; Docker Deep Dive; Kubernetes: Up and Running.
+
+- 316 Linux server setup **(Core)**
+- 317 Shell automation
+- 318 Process monitoring
+- 319 Systemd service
+- 320 Server hardening
+- 321 Git branching workflow **(Core)**
+- 322 GitHub collaboration
+- 323 Automated testing pipeline
+- 324 CI pipeline **(Core)**
+- 325 CD pipeline
+- 326 Dockerised Node.js app **(Core)**
+- 327 Docker Compose stack **(Core)**
+- 328 Multi-stage Docker build
+- 329 Container health checks
+- 330 Container security
+- 331 Kubernetes deployment **(Core)**
+- 332 Kubernetes services
+- 333 ConfigMaps and Secrets
+- 334 Ingress routing
+- 335 Persistent volumes
+- 336 Kubernetes probes
+- 337 Autoscaling
+- 338 Resource limits
+- 339 Rolling updates
+- 340 Rollback automation
+- 341 Helm chart
+- 342 Kubernetes namespaces
+- 343 RBAC configuration
+- 344 Network policies
+- 345 GitOps deployment
+- 346 Prometheus monitoring **(Core)**
+- 347 Grafana dashboards
+- 348 Log aggregation
+- 349 Distributed tracing
+- 350 Alert management
+- 351 Cloud object storage
+- 352 Managed database deployment
+- 353 Cloud networking
+- 354 Infrastructure as code
+- 355 Terraform deployment
+- 356 Blue-green deployment
+- 357 Canary deployment
+- 358 Disaster recovery
+- 359 Production environment setup
+- 360 Complete cloud-native deployment **(Core)**
+
+## Level 8: Professional portfolio applications (Professional)
+
+Projects 361-400. Main references: All books.
+
+- 361 Professional ecommerce platform **(Core)**
+- 362 Multi-vendor marketplace
+- 363 Property rental management platform **(Core)**
+- 364 School management system
+- 365 Hospital appointment management platform
+- 366 Telemedicine administration prototype
+- 367 Banking and digital wallet simulator
+- 368 Microfinance management platform
+- 369 Inventory and warehouse management **(Core)**
+- 370 Logistics and fleet management platform
+- 371 Hotel reservation management
+- 372 Restaurant ordering and delivery platform
+- 373 Learning management system
+- 374 Online examination platform
+- 375 Recruitment and applicant tracking system
+- 376 Project management SaaS **(Core)**
+- 377 Customer relationship management system
+- 378 Enterprise resource planning system
+- 379 Human resource management system
+- 380 Subscription and billing platform
+- 381 Real-time messaging platform **(Core)**
+- 382 Social networking platform
+- 383 Video streaming backend prototype
+- 384 Document collaboration platform
+- 385 Digital library and book lending system
+- 386 Telecommunications subscriber management system **(Core)**
+- 387 ISP customer and bandwidth management platform
+- 388 Network monitoring and alerting platform
+- 389 FTTH installation and maintenance management system **(Core)**
+- 390 IoT device management platform
+- 391 API marketplace
+- 392 Developer collaboration platform
+- 393 AI-powered customer support platform
+- 394 AI document analysis application
+- 395 AI-powered knowledge management system
+- 396 Multi-tenant enterprise SaaS platform
+- 397 Event-driven financial transaction platform
+- 398 Distributed ecommerce platform
+- 399 Kubernetes-native application platform
+- 400 Your own production-grade full-stack product **(Core)**

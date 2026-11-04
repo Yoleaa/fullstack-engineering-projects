@@ -1,0 +1,91 @@
+/* Project 001: developer profile. Mobile-first; one media query adds the wide layout. */
+:root {
+  --ink: #12202e;
+  --paper: #f6f8fa;
+  --surface: #ffffff;
+  --signal: #0b5fa5;      /* links, trace line: about 6:1 on paper */
+  --line: #c9d3dc;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 16px;
+  --space-4: 24px;
+  --space-5: 48px;
+  --font-body: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  --font-head: "Iowan Old Style", Georgia, "Times New Roman", serif;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  color: var(--ink);
+  background: var(--paper);
+  line-height: 1.65;
+}
+
+a { color: var(--signal); }
+a:focus-visible { outline: 3px solid var(--signal); outline-offset: 3px; }
+
+.skip-link { position: absolute; left: -999px; top: var(--space-2); }
+.skip-link:focus { left: var(--space-3); background: var(--surface); padding: var(--space-2) var(--space-3); z-index: 10; }
+
+/* Header: brand and navigation wrap onto two lines on phones */
+.site-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2) var(--space-4);
+  padding: var(--space-3);
+  background: var(--ink);
+}
+.brand { margin: 0; font-family: var(--font-head); font-size: 1.25rem; color: #fff; }
+.site-header nav { display: flex; flex-wrap: wrap; gap: var(--space-3); }
+.site-header nav a { color: #fff; padding: var(--space-1) 0; }
+.site-header a:focus-visible { outline-color: #fff; }
+
+main { max-width: 56rem; margin: 0 auto; padding: 0 var(--space-3); }
+
+/* Sections carry a thin "trace" line on the left, like a cable run on a plan */
+main > section { padding: var(--space-4) 0 var(--space-4) var(--space-3); border-left: 3px solid var(--signal); margin: var(--space-4) 0; }
+main > section.intro { border-left: 0; padding-left: 0; padding-top: var(--space-5); margin-top: 0; }
+
+h1, h2, h3 { font-family: var(--font-head); line-height: 1.2; }
+h1 { font-size: clamp(2rem, 7vw, 3.5rem); margin: 0 0 var(--space-3); max-width: 18ch; }
+h2 { font-size: 1.6rem; margin: 0 0 var(--space-3); }
+h3 { font-size: 1.1rem; margin: 0 0 var(--space-2); }
+p { max-width: 65ch; }
+.lead { font-size: 1.2rem; }
+
+.links { display: flex; flex-wrap: wrap; gap: var(--space-3); }
+.button {
+  display: inline-block;
+  padding: var(--space-2) var(--space-4);
+  border: 2px solid var(--signal);
+  background: var(--signal);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+}
+.button-quiet { background: transparent; color: var(--signal); }
+
+/* Skills: Grid with auto-fit columns, no media query needed */
+.skill-groups { display: grid; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); gap: var(--space-4); }
+.skill-groups ul { margin: 0; padding-left: var(--space-4); }
+
+/* Project cards */
+.cards { display: grid; grid-template-columns: 1fr; gap: var(--space-4); }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 4px; padding: var(--space-4); }
+.card p { margin: 0 0 var(--space-2); }
+.tags { color: #445566; font-size: 0.9rem; }
+
+.site-footer { padding: var(--space-4) var(--space-3); border-top: 1px solid var(--line); text-align: center; }
+
+/* Wide layout */
+@media (min-width: 768px) {
+  .site-header { padding: var(--space-3) var(--space-5); }
+  main > section { padding-left: var(--space-4); }
+  .cards { grid-template-columns: repeat(3, 1fr); }
+}
