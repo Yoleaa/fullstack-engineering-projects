@@ -1,6 +1,7 @@
 # Project 001: Developer profile website
 
-**Level 1** | **Difficulty:** Beginner | **Live site:** (add your URL after deploying)
+**Level 1** | **Difficulty:** Beginner | **Live site:** 
+https://yoleaa.github.io/fullstack-engineering-projects/01-web-foundations/project-001-developer-profile/
 
 A one-page profile built with only HTML and CSS: semantic structure, responsive layout, keyboard-friendly navigation.
 
